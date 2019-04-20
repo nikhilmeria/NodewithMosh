@@ -1,0 +1,29 @@
+{
+  "name": "nodewithmosh",
+  "version": "1.0.0",
+  "description": "Learning NODE with MOSH",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node" : "8.12.0"
+  },
+  "author": "Baby Hanuman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "compression": "^1.7.4",
+    "config": "^1.29.4",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.16.0",
+    "joi": "^13.1.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.5.1",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.0"
+  }
+}
